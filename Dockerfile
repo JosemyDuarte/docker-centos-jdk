@@ -5,6 +5,6 @@ RUN yum update -y \
        java-1.8.0-openjdk \
        java-1.8.0-openjdk-devel 
        
-ENV JAVA_HOME /etc/alternatives/jre
+ENV JAVA_HOME /usr/bin/java
 
 CMD ["/bin/bash"]
